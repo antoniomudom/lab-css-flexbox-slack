@@ -1,5 +1,41 @@
-/*
-background purple: #540B51
+
+html {
+    font-size: 10px;
+    
+  }
+  img {
+    max-width: 100vw;
+   }
+body{
+    margin:0;
+}
+ 
+
+nav{
+background-color: #540B51;
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: center;
+margin: 0px;
+text-align: center;
+
+
+}
+nav ul{
+    display:none;
+}
+header{
+    background-color: #540B51;
+}
+.logo{
+    
+}
+.titulo{
+
+}
+@media(min-width: 768px){}
+/*  
 background ivory: #F3EAE2
 button blue: #4285F4
 titles black: #191817
